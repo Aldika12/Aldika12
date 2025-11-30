@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime>
-#include "testtt.h"
+
 using namespace std;
 
 int delay(int waktu) {
@@ -51,3 +51,4 @@ int NewFunction()
 
     return 0;
 }
+
