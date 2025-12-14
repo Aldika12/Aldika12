@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-    int data[11] = {12, 17, 10, 5, 15, 25, 11, 7, 25,16, 19};
+    system("cls");
+    int data[11] = {12, 17, 10, 5, 15, 25, 11, 7, 25, 16, 19};
 
     vector<int> myVector(data, data + 11);
     auto cetakVector = [](const vector<int> vec, const string& judul)
@@ -24,4 +25,5 @@ int main()
 
     sort(myVector.begin(), myVector.end(), greater<int>());
     cetakVector(myVector, "Isi vector setelah Sorting DESC: ");
+
 }
